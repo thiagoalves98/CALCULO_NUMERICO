@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet"> 
+		<script src="https://unpkg.com/mathjs@5.1.1/dist/math.min.js"></script>
+		<script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
+	</head>
+	<body>
+		<h3>Método de Müller</h3>
+		<hr>
+
+		<form id="form">
+			<label for="eq">Insira uma equação:</label>
+			<input type="text" id="eq"/></br></br>
+
+			<label for="p0">Insira uma aproximação inicial p0:</label>
+			<input type="text" id="p0"/></br></br>
+			<label for="p1">Insira uma aproximação inicial p1:</label>
+			<input type="text" id="p1"/></br></br>
+			<label for="p2">Insira uma aproximação inicial p2:</label>
+			<input type="text" id="p2"/></br></br>
+			<label for="tol">Insira uma tolerância:</label>
+			<input type="text" id="tol"/></br></br>
+			<label for="iteracoes">Insira o número de iteracoes:</label>
+			<input type="text" id="iteracoes"/></br></br>
+		</form>
+
+		<a href="../../index.html"><button type="button">
+			Voltar
+		</button></a>
+		<button type="button" id="solve">Resolver</button>
+
+		<div id="resultado"></div>
+		<div id="plot"></div>
+		<script src="../js/muller.js"></script>
+	</body>
+</html>

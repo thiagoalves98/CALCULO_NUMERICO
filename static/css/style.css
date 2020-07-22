@@ -1,0 +1,86 @@
+header {
+	background-color: #002b36;
+	padding: 25px 50px 25px 50px;
+	margin: -10px -10px 0px -10px;
+}
+
+body {
+	background-color: #fdf6e3;
+}
+
+h1 {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #cb4b16;
+	margin-bottom: 2px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+label {
+	position: absolute;
+	padding-top: 4px;
+	left: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #073642;
+}
+
+input {
+	padding: 5px 10px;
+	position: absolute;
+	right: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #073642;
+}
+
+hr {
+	color: #eee8d5;
+}
+
+input {
+	background-color: #eee8d5;
+	color: #cb4b16;
+	border-style: solid; 
+	border-width: 2px;  
+	border-color: #cb4b16;
+}
+
+button {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-size: 13px;
+	padding: 10px 10px;
+	background-color: #eee8d5;
+	color: #cb4b16;
+	border-style: none none solid none; 
+	border-width: 4px;  
+	border-color: #cb4b16;
+}
+
+button:hover {
+	background-color: #cb4b16;
+	color: #eee8d5;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.main-menu {
+	margin: 2px 8px;
+	padding: 20px 20px;
+}
